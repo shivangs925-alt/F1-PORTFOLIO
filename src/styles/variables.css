@@ -1,0 +1,66 @@
+:root {
+  /* Carbon & Motorsport Palette */
+  --bg-deep: #08090B;
+  --bg-surface: #121417;
+  --bg-elevated: #181B20;
+  --bg-subtle: #1E2229;
+  
+  /* Borders */
+  --border-subtle: #23272F;
+  --border-medium: #303642;
+  --border-bright: #444D5E;
+  
+  /* Typography */
+  --text-primary: #F4F2ED;
+  --text-secondary: #A2A5AA;
+  --text-muted: #666B74;
+  --text-dim: #454952;
+  
+  /* Formula 1 Racing Red Accents */
+  --f1-red: #E10600;
+  --f1-red-hover: #FF1F19;
+  --f1-red-dim: rgba(225, 6, 0, 0.15);
+  --f1-red-glow: rgba(225, 6, 0, 0.45);
+  
+  /* Technical Telemetry Accents */
+  --telemetry-cyan: #00D2BE;
+  --telemetry-cyan-dim: rgba(0, 210, 190, 0.15);
+  --telemetry-green: #00E599;
+  --telemetry-green-dim: rgba(0, 229, 153, 0.15);
+  --telemetry-amber: #FF9F1C;
+  --telemetry-amber-dim: rgba(255, 159, 28, 0.15);
+  
+  /* Typography Families */
+  --font-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+
+  /* Layout Spacing */
+  --max-width: 1240px;
+  --container-padding: clamp(1rem, 4vw, 2.5rem);
+  --section-spacing: clamp(4.5rem, 8vw, 7.5rem);
+  
+  /* Motion & Easings */
+  --ease-f1: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-snappy: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --transition-fast: 150ms var(--ease-snappy);
+  --transition-standard: 250ms var(--ease-f1);
+  --transition-smooth: 400ms var(--ease-f1);
+  
+  /* Elevations & Shadows */
+  --shadow-subtle: 0 4px 20px rgba(0, 0, 0, 0.4);
+  --shadow-elevated: 0 12px 40px rgba(0, 0, 0, 0.6);
+  --shadow-red: 0 0 30px rgba(225, 6, 0, 0.25);
+  
+  /* Radius (Controlled & Architectural, strictly avoiding round blob shapes) */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  
+  /* Z-Index Hierarchy */
+  --z-base: 1;
+  --z-nav: 100;
+  --z-modal: 500;
+  --z-intro: 1000;
+}
